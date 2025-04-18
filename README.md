@@ -8,3 +8,13 @@ function isRegistered(address _addr) public view returns (bool) {
     }
     return false;
 }
+Java feature
+
+2.Display total registered users:retrieves how many users are currently registered
+added code :
+
+const [totalRegistered, setTotalRegistered] = useState(0);
+
+setTotalRegistered(peopleData.length);
+
+console.log("Total registered users:", totalRegistered);
