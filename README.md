@@ -1,4 +1,4 @@
-Solidity Feature
+![image](https://github.com/user-attachments/assets/9b9221bc-a2b0-4f19-9491-e647e0dc2803)Solidity Feature
 Question 2 Check if a user is registered.
 function isRegistered(address _addr) public view returns (bool) {
     for (uint i = 0; i < registeredPeople.length; i++) {
@@ -18,3 +18,5 @@ const [totalRegistered, setTotalRegistered] = useState(0);
 setTotalRegistered(peopleData.length);
 
 console.log("Total registered users:", totalRegistered);
+![image](https://github.com/user-attachments/assets/f60abccb-92d5-4731-88dd-9ca394e3237f)
+
